@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FEP-33 Assistant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+
+    <div class="topbar">
+        <div class="logo">
+            FEP-33 Assistant
+        </div>
+
+        <button id="themeToggle">
+            ☀️
+        </button>
+    </div>
+
+    <div id="chat"></div>
+
+    <div class="input-area">
+        <input
+            type="text"
+            id="message"
+            placeholder="Напишіть повідомлення..."
+        >
+
+        <button onclick="sendMessage()">
+            Надіслати
+        </button>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
